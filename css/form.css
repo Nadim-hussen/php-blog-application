@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.form-head{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sub-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#4d918c;
+    padding: 15px;
+}
+.sub-head h2{
+    font-family: 'Roboto', sans-serif;
+}
+.form-button{
+   display: flex;
+   justify-content: center;
+
+}
+form, .form-h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.form-btn{
+    padding: 5px;
+    background-color: #053668;
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    border: 1px solid #789beb;
+    border-radius: 5px;
+}
+.form-label{
+    font-weight: 600;
+}
+.form-name{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.form-email{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.form-phone{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.form-password{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.form-redirect{
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+    color: #34eb49;
+    font-size: 1.2rem;
+
+    font-family: 'Bebas Neue', cursive;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #34eba4;
+    text-decoration: underline;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* margin: auto 40px; */
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+ul{
+    margin-right: 20px;
+}
+nav {
+    background-color: #edf0ed;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
