@@ -5,7 +5,7 @@ if(!isset($_SESSION['name'] )){
     header("Location: ../login.php");
 
 }
-include '../opp/user.php';
+include '../oop/user.php';
 $user = new User();
 $id = $_REQUEST['id'];
 $delete = $user->deleteUser($id);

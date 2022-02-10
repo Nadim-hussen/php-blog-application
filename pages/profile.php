@@ -30,7 +30,7 @@ if(!isset($_SESSION['name'] )){
 <div class="container d-flex justify-content-center mb-2">
       <div class="row mx-2">
 <?php
-     include '../opp/user.php';
+     include '../oop/user.php';
      $user = new User();
      $delete = $user->deleteUser();
      $datas = $user->userData();

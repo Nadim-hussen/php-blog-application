@@ -36,7 +36,7 @@ if(!isset($_SESSION['name'] )){
    <p class="form-redirect"> Don't have an account? <a href="index.html"> Sign Up</a> </p>
    <?php
 
-        include 'opp/user.php';
+        include 'oop/user.php';
         $user = new User();
         $register = $user->login();
     ?>

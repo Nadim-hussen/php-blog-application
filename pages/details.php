@@ -24,7 +24,7 @@ if(!isset($_SESSION['name'] )){
 <body>
   <div class="container mt-5">
       <?php
-            include '../opp/user.php';
+            include '../oop/user.php';
             $detail = new User();
             $id = $_REQUEST['id'];
             $row = $detail->details($id);

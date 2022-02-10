@@ -29,7 +29,7 @@ if(!isset($_SESSION['name'] )){
         <h2 class="text-center">Your Activity</h2>
     </div>
     <?php
-        include '../opp/user.php';
+        include '../oop/user.php';
         $user = new User();
         $data = $user->store();
     ?>

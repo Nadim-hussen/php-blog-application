@@ -40,7 +40,7 @@ if(!isset($_SESSION['name'] )){
   </thead>
 
     <?php
-        include '../opp/user.php';
+        include '../oop/user.php';
         $user = new User();
         $datas = $user->home();
         if(!empty($datas)){

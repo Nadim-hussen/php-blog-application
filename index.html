@@ -42,7 +42,7 @@ if(!isset($_SESSION['name'] )){
    </form>
    <p class="form-redirect"> Have an account? <a href="login.php"> Log in now</a></p>
    <?php
-        include 'opp/user.php';
+        include 'oop/user.php';
         $user = new User();
         $register = $user->register();
     ?>

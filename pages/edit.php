@@ -20,7 +20,7 @@ if(!isset($_SESSION['name'] )){
 </head>
 <body>
 <?php
-     include '../opp/user.php';
+     include '../oop/user.php';
      $user = new User();
      $id = $_REQUEST['id'];
     $update = $user->updateUser();
